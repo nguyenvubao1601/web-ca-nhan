@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: flex;
+}
+.student-info {
+  width: 550px;
+  height: 220px;
+  border: 2px red solid;
+  margin: 25px;
+}
+.student-form {
+  display: flex;
+  margin-left: 10px;
+}
+div.student-form p {
+  width: 120px;
+}
+div.student-form input[type="text"] {
+  margin-bottom: 7px;
+}
+div.student-form input[type="number"] {
+  margin-bottom: 7px;
+}
+div.student-form2 {
+  margin: 0 auto;
+  display: flex;
+  margin-left: 10px;
+  width: 270px;
+}
+div.student-form2 p {
+  margin-right: 58px;
+}
+div.student-form2 input {
+  margin-right: 5px;
+  margin-left: 9px;
+}
+.button {
+  width: 100px;
+  margin-left: 130px;
+  margin-top: 5px;
+}
+div.right table {
+  margin-top: 25px;
+  margin-left: 50px;
+}
+.error {
+  color: red;
+}

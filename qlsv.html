@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quản lý sinh viên</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="left">
+        <div class="student-info">
+          <div><h1>Thông tin sinh viên</h1></div>
+          <br />
+          <div class="student-form">
+            <p>Họ và tên</p>
+            <input type="text" id="fullName" />
+            <span id="fullName-error" class="error"></span>
+          </div>
+          <div class="student-form">
+            <p>MSSV</p>
+            <input type="number" id="MSSV" />
+            <span id="MSSV-error" class="error"></span>
+          </div>
+          <div class="student-form">
+            <p>Năm sinh</p>
+            <input type="number" id="year" />
+            <span id="year-error" class="error"></span>
+          </div>
+
+          <div class="student-form">
+            <p>Địa chỉ</p>
+            <input type="text" id="address" />
+            <span id="address-error" class="error"></span>
+          </div>
+          <div class="student-form2">
+            <p>Giới tính</p>
+            <label for="male">Nam</label>
+            <input type="radio" name="gender" id="male" value="1" />
+            <label for="female">Nữ</label>
+            <input type="radio" name="gender" id="female" value="2" />
+            <span id="gender-error" class="error"></span>
+          </div>
+          <div>
+            <button onclick="save()" class="button">Lưu thông tin</button>
+          </div>
+        </div>
+      </div>
+      <div class="right">
+        <table width="600" border="1">
+          <thead>
+            <tr>
+              <td>#</td>
+              <td>Họ và tên</td>
+              <td>MSSV</td>
+              <td>Năm sinh</td>
+              <td>Địa chỉ</td>
+              <td>Hành động</td>
+            </tr>
+          </thead>
+          <tbody id="tbody"></tbody>
+        </table>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
+    <script src="student.js"></script>
+  </body>
+</html>

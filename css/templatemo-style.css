@@ -52,8 +52,21 @@ a:hover {
 .java {
   width: 100px;
 }
+.cv {
+  background-color: white;
+}
+.df {
+  width: 500px;
+}
+.download-btn {
+  width: 200px;
+  background-color: white;
+}
 .pp {
   width: 200px;
+}
+.vbn {
+  width: 900px;
 }
 .sdd {
   width: 200px;
