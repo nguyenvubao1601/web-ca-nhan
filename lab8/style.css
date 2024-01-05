@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.navbar ul {
+  list-style-type: none;
+  background-color: rgb(74, 70, 70);
+  overflow: hidden;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+}
+.navbar a:hover {
+  background-color: rgb(1, 1, 1);
+}
+.navbar li {
+  float: left;
+}
+.login-btn {
+  background-color: white;
+  width: 130px;
+  height: 40px;
+  border-radius: 50px;
+  font-size: 20px;
+  border: none;
+  margin-left: 680%;
+  margin-top: 5px;
+}
+.login-btn:hover {
+  background-color: rgb(230, 203, 169);
+  cursor: pointer;
+}
+.login-btn:active {
+  transform: scale(0.9);
+}
+.sign-up-btn {
+  background-color: orange;
+  width: 130px;
+  height: 40px;
+  border-radius: 50px;
+  font-size: 20px;
+  color: white;
+  border: none;
+  margin-left: 700%;
+  margin-top: 5px;
+}
+.sign-up-btn:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+.sign-up-btn:active {
+  transform: scale(0.9);
+}
+.sa {
+  display: grid;
+}
+.name {
+  width: 400px;
+  height: 50px;
+  margin-top: 10px;
+  font-size: 22px;
+  padding: 10px;
+}
+.email {
+  width: 400px;
+  height: 50px;
+  margin-top: 10px;
+  font-size: 22px;
+  padding: 10px;
+}
+.ddd {
+  width: 400px;
+  height: 200px;
+  margin-top: 10px;
+  font-size: 22px;
+  padding: 10px;
+}
+.content-right {
+  margin-top: 25px;
+  margin-left: 25px;
+}
+.asss {
+  width: 330px;
+  height: 220px;
+  padding: 20px;
+  border-radius: 20px;
+}
+.gg ul li:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.gg ul li {
+  list-style: none;
+}
+.text {
+  margin-left: 20px;
+  font-size: 30px;
+}
+.footer {
+  width: 100%;
+  height: 100px;
+  border-top: 2px rgb(8, 8, 8) solid;
+  margin-top: 50px;
+}
+.more-btn {
+  background-color: rgb(216, 224, 102);
+  width: 130px;
+  height: 40px;
+  border-radius: 50px;
+  font-size: 20px;
+  border: none;
+  margin-left: 47%;
+  margin-top: 20px;
+}
+.more-btn:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+.more-btn:active {
+  transform: scale(0.9);
+}
